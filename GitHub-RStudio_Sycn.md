@@ -7,7 +7,7 @@ This document provides simple instruction for setting up and syncing repositorie
     - When the repo is created, copy the **HTTPS clone URL** (bottom right)
     - Go to local computer, open Terminal and cd to directory where you want the local repo to be placed
     - enter: 
-        - git clone 'https://github.com/\<username\>/\<reponame\>.git'
+        - git clone 'https://github.com/ \<username\>/ \<reponame\>.git'
             - \<username\> is your GitHub username and \<reponame\> is the name of the repo you just created
     - Add files to the local \<reponame\> directory that you would like to commit
     - to stage files for commit enter:
