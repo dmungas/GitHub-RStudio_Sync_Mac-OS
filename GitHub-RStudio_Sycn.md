@@ -25,8 +25,8 @@ This document provides simple instruction for setting up and syncing repositorie
     - Stage files for commit from within RStudio **Git** tab (top right)
     - Commit files and add commit message
     - In GitHub, create new repository for this project
-        - ***Do Not*** select **Inititalize the repository with a README**
-            - The README file will cause problems with syncing
+        - <u>Do Not</u> select **Inititalize the repository with a README**
+            - The README file will cause problems with syncing. If present it has to be pulled to the local repository before the local and remote repositories can be synced.
     - Open Terminal in local computer, cd to directory containing R project
     - enter:
         - git remote add origin https://github.com/ \<username\>/ \<reponame\>.git
