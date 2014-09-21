@@ -24,7 +24,7 @@ This document provides simple instruction for setting up and syncing repositorie
     - Create a local Git repository for your RStudio project using the Tools > Version Control > Project Setup menu
     - Stage files for commit from within RStudio **Git** tab (top right)
     - Commit files and add commit message
-    - In Github, create new repository for this project
+    - In GitHub, create new repository for this project
         - ***Do Not*** select **Inititalize the repository with a README**
             - The README file will cause problems with syncing
     - Open Terminal in local computer, cd to directory containing R project
