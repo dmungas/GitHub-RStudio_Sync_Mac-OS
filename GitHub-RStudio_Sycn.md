@@ -1,7 +1,3 @@
----
-title: "Git-GitHub_Sync"
-output: html_document
----
 
 This document provides simple instruction for setting up and syncing repositories on Mac OS computers and GitHub, and for linking RStudio project repositories with GitHub. It assumes that you have a GitHub account, have installed Git on your local computer, and have configured Git with your GitHub username and email address. 
 
