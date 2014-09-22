@@ -7,7 +7,7 @@ This document provides simple instruction for setting up and syncing repositorie
     - When the repo is created, copy the **HTTPS clone URL** (bottom right)
     - Go to local computer, open Terminal and cd to directory where you want the local repo to be placed
     - enter: 
-        - git clone 'https://github.com/ \<username\>/ \<reponame\>.git'
+        - git clone `'https://github.com/<username>/<reponame>.git'`
             - \<username\> is your GitHub username and \<reponame\> is the name of the repo you just created
     - Add files to the local \<reponame\> directory that you would like to commit
     - to stage files for commit enter:
@@ -29,7 +29,7 @@ This document provides simple instruction for setting up and syncing repositorie
             - The README file will cause problems with syncing. If present it has to be pulled to the local repository before the local and remote repositories can be synced.
     - Open Terminal in local computer, cd to directory containing R project
     - enter:
-        - git remote add origin https://github.com/ \<username\>/ \<reponame\>.git
+        - git remote add origin `https://github.com/<username>/<reponame>.git`
             - \<username\> is your GitHub username and \<reponame\> is the name of the repo you created in GitHub
     - to sync enter:
         - git push -u origin master
