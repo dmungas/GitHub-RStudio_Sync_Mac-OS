@@ -29,7 +29,7 @@ This document provides simple instruction for setting up and syncing repositorie
             - The README file will cause problems with syncing. If present it has to be pulled to the local repository before the local and remote repositories can be synced.
     - Open Terminal in local computer, cd to directory containing R project
     - enter:
-        - git remote add origin `https://github.com/<username>/<reponame>.git`
+        - git remote add origin `'https://github.com/<username>/<reponame>.git'`
             - \<username\> is your GitHub username and \<reponame\> is the name of the repo you created in GitHub
     - to sync enter:
         - git push -u origin master
