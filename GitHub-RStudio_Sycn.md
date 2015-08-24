@@ -33,5 +33,15 @@ This document provides simple instruction for setting up and syncing repositorie
             - \<username\> is your GitHub username and \<reponame\> is the name of the repo you created in GitHub
     - to sync enter:
         - git push -u origin master
-    - subsequent syncs after additional commits can be initiated with the **Push** button of the RStudio **Git** tab    
+    - subsequent syncs after additional commits can be initiated with the **Push** button of the RStudio **Git** tab 
+    
+3. To publish RStudio generated html file on Github:
+
+    -   Create local repo that contains html and support files, create GitHub repo, and sync
+    -   In Terminal, cd to directory with repo
+    -   enter:
+        - git branch gh-pages
+        - git push origin gh-pages
+    -   Changes in the local repo can be pushed to Github
+        - these changes can then be pulled to gh-pages branch within GitHub
         
