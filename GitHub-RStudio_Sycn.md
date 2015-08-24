@@ -44,4 +44,5 @@ This document provides simple instruction for setting up and syncing repositorie
         - git push origin gh-pages
     -   Changes in the local repo can be pushed to Github
         - these changes can then be pulled to gh-pages branch within GitHub
+    -   Brian Caffo note on this process are at: http://www.scribd.com/doc/234574197/Publishing-Slidify#scribd    
         
